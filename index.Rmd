@@ -163,6 +163,16 @@ class: center, middle
 
 ---
 
+# Actual evalution design
+
+* A stepped wedge cluster design study (quasi-experimental) to assess impact of programme on prevalence of MAM and SAM.
+
+* A two-arm parallel design cluster controlled study nested into the stepped wedge study to assess GAM incidence.
+ 
+* A qualitative sub-study to investigate coverage and the effects of social and behaviour change communication (SBCC) in sites across 4 localities selected according to programme status, available data, and accessibility. 
+
+---
+
 class: inverse, center, middle
 
 ## Case Study 3
@@ -206,5 +216,23 @@ class: center, middle
 class: center, middle
 
 # What are the approaches/methods that you would consider in answering the evaluation question/questions?
+
+---
+
+# Actual evaluation question/s
+
+* What are the current levels of indicators related to nutrition,infant and young child feeding (IYCF), and health-seeking behaviors of mothers and under 5 children in Kayah and Kayin State?
+
+* What is the impact of the MCCT programme on child stunting in Kayah and Kayin State? 
+
+* What is the impact of the MCCT programme on maternal nutritional status in Kayah and Kayin State?
+
+---
+
+# Actual evaluation design
+
+* A cross-sectional survey to asses current levels of indicators related to nutrition,infant and young child feeding (IYCF), and health-seeking behaviors of mothers and under 5 children
+
+* A regression discontinuity (RD) design to assess impact of the MCCT programme on child stunting and on matenral nutritional status
 
 ---
