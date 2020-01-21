@@ -173,6 +173,14 @@ class: center, middle
 
 ---
 
+# Stepped wedge design
+
+```{r, out.width = "90%", echo = FALSE, fig.align = "center"} 
+knitr::include_graphics("figures/steppedWedge.png")
+```
+
+---
+
 class: inverse, center, middle
 
 ## Case Study 3
