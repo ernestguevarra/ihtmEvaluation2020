@@ -1,0 +1,75 @@
+---
+title: "Overview of Evaluation Methods"
+author: "Ernest Guevarra"
+date: "21 January 2020" #'`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include = FALSE}
+library(xaringanthemer)
+mono_light(
+  base_color = "#002147",
+  title_slide_background_image = "",
+  title_slide_background_size = "cover",
+  header_font_google = google_font("Fira Sans"),
+  text_font_google   = google_font("Fira Sans Condensed"),
+  text_font_size = "1.2em",
+  code_font_google   = google_font("Fira Mono"),
+  text_slide_number_font_size = "0.5em"
+)
+```
+
+class: inverse, center, middle
+
+`r fontawesome::fa("envelope", fill = "white")` ernest@guevarra.io
+
+`r fontawesome::fa("globe", fill = "white")` ernest.guevarra.io
+
+`r fontawesome::fa("linkedin", fill = "white")` ernestguevarra
+
+---
+
+# Structure of lecture
+
+* Three case studies (one per hour)
+
+In each case study:
+
+* Examine the various considerations for evaluation
+
+* Discuss the possible methods to use for evaluation and their pros and cons
+
+At the end:
+
+* Recap and summarise methods used for evaluation
+
+---
+
+class: inverse, center, middle
+
+## Case Study 1
+
+## Coverage assessment of direct nutrition interventions in Liberia
+
+---
+
+# Background
+
+* On 3 February 2014, the Republic of Liberia joined the Scaling Up Nutrition (SUN) Movement
+
+* Liberia had developed a National Nutrition Policy which was designed to complement and strengthen actions set out in the Nutrition Health Policy and the Food Security and Nutrition Strategy
+
+* Liberia's 2012 Poverty Reduction Strategy (PRS) had also identified nutrition as a national priority and an integral element of the overall development agenda
+
+---
