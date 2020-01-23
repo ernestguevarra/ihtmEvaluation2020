@@ -101,7 +101,7 @@ class: center, middle
 
 ---
 
-# Actual evalution question posed by the funder, UNICEF and the Ministry of Health
+# Actual evaluation question posed by the funder, UNICEF and the Ministry of Health
 
 * Has coverage of the five nutrition-specific interventions increased after the implementation of the three-year nutrition programme in Liberia?
 
@@ -135,7 +135,7 @@ class: inverse, center, middle
 
 * Delivering nutrition specific and sensitive services that address immediate, underlying and some basic causes of acute malnutrition
 
-* Within this framework, WFP implementes a food-based prevention of acute malnutrition programme in which at-risk children are identified and then provided rations of ready-to-use supplementary food (RUSF) in the form of either a lipid-based nutrient supplement (LNS) or a corn-soya blend (CSB) supplement 
+* Within this framework, WFP implements a food-based prevention of acute malnutrition programme in which at-risk children are identified and then provided rations of ready-to-use supplementary food (RUSF) in the form of either a lipid-based nutrient supplement (LNS) or a corn-soya blend (CSB) supplement 
 
 ---
 
@@ -163,7 +163,7 @@ class: center, middle
 
 ---
 
-# Actual evalution design
+# Actual evaluation design
 
 * A stepped wedge cluster design study (quasi-experimental) to assess impact of programme on prevalence of MAM and SAM.
 
@@ -205,6 +205,10 @@ class: inverse, center, middle
 
 * The program aims to improve nutritional outcomes for all mothers and children during the first 1000 days of life by ensuring that pregnant women and mothers have improved practices on nutrition, infant, and young child feeding, and health-seeking behaviors.
 
+---
+
+# The Maternal and Child Cash Transfer (MMCT) programme
+
 * The program aims to provide universal coverage to social behavior change communication (SBCC) and a maternal and child cash transfer (MCCT) of 15,000 MMK per month for all pregnant women and mothers with children under 2 years of age.
 
 ---
@@ -244,3 +248,123 @@ class: center, middle
 * A regression discontinuity (RD) design to assess impact of the MCCT programme on child stunting and on matenral nutritional status
 
 ---
+
+class: inverse, center, middle
+
+## Examples of evaluation methods or analytical methods used in evaluation discussed in lecture
+
+---
+
+# Difference-in-difference (DID)
+
+* This is probably the most intuitive of the various evaluation methods discussed.
+
+* In its most simple form, DID is like your typical baseline-endline comparison (as discussed with the coverage assessment plan for the Liberia project) i.e., assess outcome measure before intervention and then measure outcome measure after intervention
+
+* In this comparison, any difference in the outcome measure before and after the intervention can be considered to be partly due to the intervention.
+
+---
+
+# Difference-in-difference (DID)
+
+* With DID, the dimension of having a control group i.e, group not receiving treatment on which the outcome measure is to be assessed at baseline and endline as well, is added to this basic baseline and endline comparison
+
+* The difference in the outcome measure at baseline and endline in the control group can be considered as the change that would have happened regardless of the intervention
+
+* Hence, getting the difference between the difference in baseline and endline in control and intervention groups in theory should give the change that is due to the intervention
+
+---
+
+# Difference-in-difference (DID): Key assumptions
+
+* DID does not account for any other unobserved differences between the control and intervention group that change over time
+
+* DID assumes that the outcome measure changes over time between intervention and control groups i.e., without intervention, intervention and control groups will show equal trends - called parallel trends assumption
+
+---
+
+# Difference-in-difference (DID): Further reading and example
+
+* The Impact of Ethiopia's Productive Safety Net Programme and its Linkages - [https://doi.org/10.1080/00220380902935907](https://doi.org/10.1080/00220380902935907)
+
+---
+
+# Methods/approaches for matching
+
+* One of the aims of evaluation methods/design is to be able to describe and obtain a reasonable counter-factual (control) group
+
+* Matching methods as analytic approaches that can be used to be able to match respondents or samples or study participants based on available relevant data.
+
+* Whilst this is not specifically an evaluation method per se, matching methods are used on their own or within specific evaluation designs as a means to specify the most appropriate control group to compare the intervention group with.
+
+---
+
+# Methods/approaches for matching: Types/examples
+
+* Propensity score matching (PSM); An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3144483/)
+
+* Coarsened exact matching (CEM): Causal Inference without Balance Checking: Coarsened Exact Matching - [doi:10.1093/pan/mpr013](doi:10.1093/pan/mpr013)
+
+---
+
+# Methods/approaches for matching: applications
+
+* Propensity score matching (PSM): The Impact of Ethiopia's Productive Safety Net Programme and Its Linkages - [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1273877](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1273877)
+
+* Coarsened exact matching (CEM): Matching by Coarsened Exact Matching?             - [https://views-voices.oxfam.org.uk/2017/06/coarsened-exact-matching/](https://views-voices.oxfam.org.uk/2017/06/coarsened-exact-matching/)
+
+---
+
+# Stepped-wedge cluster design
+
+* Commonly used in service delivery type intervention
+
+* Similar in principle to a crossover RCT with the main difference being that the crossover is sequential and progressive over time following the staged or phased roll-out/implementation of an intervention i.e., more clusters are exposed to the intervention towards the end of the study than in its early stages. 
+
+* Design is a cluster design hence unit of analysis is not at an individual respondent level i.e., clinic level or hospital level
+
+---
+
+# Stepped-wedge cluster design: further reading
+
+* The stepped wedge cluster randomised trial: rationale, design, analysis, and reporting - [https://doi.org/10.1136/bmj.h391](https://doi.org/10.1136/bmj.h391)
+
+* The stepped wedge trial design: a systematic review - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1636652/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1636652/)
+
+---
+
+# Stepped-wedge cluster design: examples of application
+
+* From local concern to randomized trial: the Watcombe Housing Project - [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5060144/?report=reader](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5060144/?report=reader)
+
+---
+
+# Regression discontinuity
+
+* Assigns intervention and control grouping based on cut-off value/criteria for eligibility within a variable that is of a continuous distribution
+
+* Most common example used is in education where this approach is widely used. Eligiblity for a special maths class is based on grades on a scale of 0 - 100 where those achieving grades in math of 80 or higher are eligible. We say (assume) that those who just made the cut-off (e.g., those who score between 80-85) are likely to be similar to those who just missed the cut-off (e.g., those who score between 75-79).
+
+* Based on this assumption, these two groups can then be compared either retrospectively or prospectively with regard to the outcome measure of interest.
+
+---
+
+# Regression discontinuity: limitations
+
+* Tends to provides limited external validity as results are only generalizable around the cut-off
+
+* Watch out for possibility of spillover or contamination between control and intervention depending on the treatment (i.e., interventions with rolling recruitment)
+
+* Sample size requirements can be prohibitively high especially if the selected bandwidth of the running variable is very narrow
+
+---
+
+# Regression discontinuity: further reading
+
+* An evaluation of the performance of regression discontinuity design on PROGRESA (World Bank Policy Research Working Paper 3386) - [http://www-wds.worldbank.org/servlet/WDSContentServer/WDSP/IB/2004/09/09/000009486_20040909125120/additional/103503322_20041117144006.pdf](http://www-wds.worldbank.org/servlet/WDSContentServer/WDSP/IB/2004/09/09/000009486_20040909125120/additional/103503322_20041117144006.pdf)
+
+---
+
+
+
+
